@@ -10,6 +10,12 @@ gnere VARCHAR(255)
 
 DESCRIBE ej5.Gnere;
 
-CREATE TABLE IF NOT EXISTS 
+CREATE TABLE IF NOT EXISTS Album(
+idAlbum INTEGER UNSIGNED PRIMARY KEY auto_increment,
+albumName VARCHAR(255),
+dataReleased DATETIME
+);
+
+DESCRIBE ej5.Album;
 
 
